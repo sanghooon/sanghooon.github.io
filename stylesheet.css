@@ -9,20 +9,15 @@ hr {
 	color: black;
 }
 .container h1 {
-	padding: 50px 50px 0px 50px;
-}
-.container h3 {
-	padding: 0px 50px 50px 50px;
+	padding: 0px 50px 0px 50px;
+	font-family: Rockwell;
 }
 .container .nav-tabs {
 	margin-top: 0px;
-	
 }
-
 .jumbotron {
 	background-color: #cce6ff !important;
-	text-align: center;
-	
+	text-align: center;	
 }
 .container .welcome {
 	margin-top: 20px;
@@ -33,7 +28,6 @@ hr {
 .container .welcome h2{
 	
 }
-
 .container .welcome p {
 	font-size: 18px;
 }
@@ -42,26 +36,25 @@ hr {
 	background-color: #efefef;
 	border-radius: 5px;
 	margin-bottom: 50px;
+	
 }
 .container .introduction h2 {
-	margin-left: 20px;
+	margin-left: 30px;
 	text-decoration: underline;
 	padding-bottom: 10px;
 }
 .container .introduction p {
-	margin-left: 20px;
+	margin-left: 30px;
 	font-size: 18px;
+	margin-right: 20px;
 }
-
 img {
-	height: 200px;
-	width: 200px;
+	height: 250px;
+	width: 250px;
 	margin: auto;
-	margin-top: 25%;
-	margin-bottom: 75%;
 	display: block;
+	border-radius: 5px;
 }
-
 .container .projects {
 	border-radius: 5px;
 	background-color: #e6ffe6;
@@ -75,8 +68,10 @@ img {
 	padding-bottom: 10px;
 }
 .container .projects ul {	
+	list-style-type: none;
 	font-size: 18px;
 	margin-right: 20px;
+	text-align: center;
 }
 .education {
 	border-radius: 5px;
@@ -92,7 +87,8 @@ img {
 }
 .education ul {
 	list-style-type: none;
-	font-size: 14px;
+	font-size: 18px;
+	text-align: center;
 }
 
 .skills {
