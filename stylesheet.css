@@ -12,9 +12,7 @@ hr {
 	padding: 0px 50px 0px 50px;
 	font-family: Rockwell;
 }
-.container .nav-tabs {
-	margin-top: 0px;
-}
+
 .jumbotron {
 	background-color: #cce6ff !important;
 	text-align: center;	
@@ -49,8 +47,9 @@ hr {
 	margin-right: 20px;
 }
 img {
-	height: 250px;
-	width: 250px;
+	height: auto;
+	width: auto;
+	max-width: 100%;
 	margin: auto;
 	display: inline;
 	border-radius: 5px;
@@ -88,6 +87,7 @@ img {
 .education ul {
 	list-style-type: none;
 	font-size: 18px;
+	margin-right: 20px;
 	text-align: center;
 }
 
