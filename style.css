@@ -1,0 +1,50 @@
+body, html{ height: 100%;}
+body {
+	padding-top: 50px;
+	background-color: white;
+}
+.full-page {
+	height: 100%;
+	/*Horiztonally and vertically centering content"*/
+  display: flex;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.landing-title {
+	font-size: 60px;
+}
+.row-spacing {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+.navbar {
+	background-color: white;
+}
+.navbar a {
+	color: black;
+}
+#home {
+	background: url(img/background.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	text-shadow: 1px 1px 1px;
+}
+#aboutme {
+	background-color: white;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#projects {
+	background-color: white;
+}
+#contact {
+	background-color:  #b3e6b3;
+	text-align: center;
+}
