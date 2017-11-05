@@ -1,12 +1,79 @@
-body, html{ height: 100%;}
+body, html{}
 body {
 	padding-top: 50px;
 	background-color: white;
+	font-family: 'Montserrat', sans-serif;
 }
+
+h2 {
+	margin:1em 0;
+}
+img {
+	max-width: 90%;
+	transition: all 0.3s;
+}
+a {
+	color: #404040;
+	transition: all 0.3s;
+}
+a:hover {
+	color: #808080;
+	text-decoration: none;
+}
+a:hover img {
+	transform: scale(1.1);
+	transition: all 0.3s;
+}
+/* FULLPAGE */
+.fa {
+	font-size: 1.3em;
+	margin: 0 5px;
+}
+.row {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.section {
+	text-align: center;
+}
+.type-contain {
+	position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.line-1 {
+    width: 7.5em;
+    margin: 0 auto 0.3em;
+    border-right: 2px solid rgba(255,255,255,.75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.typewriter {
+	overflow: hidden;
+	animation: type 2s steps(16) 1s 1 normal both,
+             blinkText 500ms steps(16) infinite normal;
+}
+@keyframes type {
+	from { width: 0; }
+	to { width: 7.5em; }
+}
+@keyframes blinkText {
+	from { border-right-color: black; }
+	to { border-right-color: transparent; }
+}
+
+#section1 {
+	background: url('img/main-background.gif');
+	background-size: cover;
+}
+/* FULLPAGE */
+
 .full-page {
-	height: 100%;
 	/*Horiztonally and vertically centering content"*/
-  display: flex;
+/*  display: flex;
 	text-align: center;
 	flex-direction: column;
 	justify-content: center;
@@ -25,26 +92,11 @@ body {
 .navbar a {
 	color: black;
 }
-#home {
-	background: url(img/background.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-	text-shadow: 1px 1px 1px;
+
+.background {
+	height: auto;
+	width: 100%;
 }
-#aboutme {
-	background-color: white;
-	display: flex;
-	text-align: center;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-#projects {
-	background-color: white;
-}
-#contact {
-	background-color:  #b3e6b3;
-	text-align: center;
-}
+.center-it {
+	position: absolute;
+}*/
